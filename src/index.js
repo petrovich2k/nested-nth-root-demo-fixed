@@ -9,6 +9,8 @@ function component() {
   div.appendChild(getImageElement('\\sqrt[3]{8}'));
   div.appendChild(document.createElement('br'));
   div.appendChild(getImageElement('\\sqrt[\\sqrt[]{}]{}'));
+  div.appendChild(document.createElement('br'));
+  div.appendChild(getImageElement('\\sqrt[\\sqrt[3]{8}]{16}'));
 
   return div;
 }
